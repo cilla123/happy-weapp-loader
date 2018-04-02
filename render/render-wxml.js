@@ -17,7 +17,7 @@ module.exports = async function (template) {
 
     const lang = template.lang
     const options = loaderUtils.getOptions(this)
-    const fullPath = loaderUtils.interpolateName(this, `[path][name].mina`, options)
+    const fullPath = loaderUtils.interpolateName(this, `[path][name].happy`, options)
     const filename = loaderUtils.interpolateName(this, `[name].wxml`, options)
     const folder = loaderUtils.interpolateName(this, `[folder]`, options)
     const dirname = loaderUtils.interpolateName(this, `[path]`, options)

@@ -48,7 +48,7 @@ module.exports = async function (style) {
     this.cacheable()
 
     const options = loaderUtils.getOptions(this)
-    const pullPath = loaderUtils.interpolateName(this, `[path][name].mina`, options)
+    const pullPath = loaderUtils.interpolateName(this, `[path][name].happy`, options)
     const filename = loaderUtils.interpolateName(this, `[name].wxss`, options)
     const folder = loaderUtils.interpolateName(this, `[folder]`, options)
     const dist = options.dist || 'dist'

@@ -8,7 +8,7 @@ module.exports = function (script, callback) {
     this.cacheable()
 
     const options = loaderUtils.getOptions(this)
-    const fullPath = loaderUtils.interpolateName(this, `[path][name].mina`, options)
+    const fullPath = loaderUtils.interpolateName(this, `[path][name].happy`, options)
     const filename = loaderUtils.interpolateName(this, `[name].js`, options)
     const folder = loaderUtils.interpolateName(this, `[folder]`, options)
     const filePath = loaderUtils.interpolateName(this, `[path]`, options)

@@ -7,7 +7,7 @@ module.exports = function (ctx, options) {
 
     let name = ctx.resourcePath
     name = name.split(srcUrlReg).pop()
-    name = name.split('.mina').shift()
+    name = name.split('.happy').shift()
 
     let newPath = path.resolve(options.path, options.dist)
 
