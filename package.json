@@ -1,0 +1,36 @@
+{
+  "name": "happy-weapp-loader",
+  "version": "1.0.0",
+  "description": "一个类似vue一样的文件写法的编译器",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cilla123/happy-weapp-loader.git"
+  },
+  "keywords": [
+    "编译器",
+    "vue",
+    "小程序"
+  ],
+  "author": "Ben赖珏豪",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cilla123/happy-weapp-loader/issues"
+  },
+  "homepage": "https://github.com/cilla123/happy-weapp-loader#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-preset-env": "^1.4.0",
+    "consolidate": "^0.14.5",
+    "fs-extra": "^3.0.1",
+    "loader-utils": "^1.1.0",
+    "lodash": "^4.17.4",
+    "vue-template-compiler": "^2.3.3"
+  },
+  "dependencies": {
+    "fs-extra": "^3.0.1"
+  }
+}
