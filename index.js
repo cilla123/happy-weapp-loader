@@ -16,7 +16,7 @@ module.exports = function (content) {
         renderWxss.call(this, parts.styles[0])
     }
     if (parts.script) {
-        renderScript.call(this, parts.script, cb)
+        renderScript.call(this, parts.script, callback)
     } else {
         callback(null, '')
     }
