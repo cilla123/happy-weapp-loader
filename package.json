@@ -1,6 +1,6 @@
 {
   "name": "happy-weapp-loader",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "一个类似vue一样的文件写法的编译器",
   "main": "index.js",
   "scripts": {
